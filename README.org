@@ -18,6 +18,7 @@ This is the basic structure of the page linked above.
 #+begin_src html
 <head>
   <meta charset="UTF-8">
+  <title>Tuner</title>
 </head>
 #+end_src
 
