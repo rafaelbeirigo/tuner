@@ -17,6 +17,7 @@ This is the basic structure of the page linked above.
 #+name: head Block
 #+begin_src html
 <head>
+  <meta charset="UTF-8">
 </head>
 #+end_src
 
