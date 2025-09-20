@@ -19,6 +19,8 @@ This is the basic structure of the page linked above.
 <head>
   <meta charset="UTF-8">
   <title>Tuner</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 #+end_src
 
