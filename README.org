@@ -4,7 +4,7 @@ You can see it in action [[https://rafaelbeirigo.github.io/tuner/][here]].
 The rest of this text describes the entire code in [[https://en.wikipedia.org/wiki/Literate_programming][Literate Programming]].
 It was made using [[https://orgmode.org][Org Mode for Emacs]].
 
-This is the basic structure of the page linked above.
+This is the basic structure of the page linked above, coded in ~index.html~.
 
 ~index.html ≡~
 
