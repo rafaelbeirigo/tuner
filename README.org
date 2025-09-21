@@ -4,7 +4,14 @@ You can see it in action [[https://rafaelbeirigo.github.io/tuner/][here]].
 The rest of this text describes the entire code in [[https://en.wikipedia.org/wiki/Literate_programming][Literate Programming]].
 It was made using [[https://orgmode.org][Org Mode for Emacs]].
 
+This is the basic structure of the page linked above.
+
 #+begin_src html :tangle index.html :noweb tangle
+<!DOCTYPE html>
+<html lang="en">
+  <<head Block>>
+  <<body Block>>
+</html>
 #+end_src
 
 # Local Variables:
