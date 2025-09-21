@@ -14,6 +14,12 @@ This is the basic structure of the page linked above.
 </html>
 #+end_src
 
+#+name: head Block
+#+begin_src html
+<head>
+</head>
+#+end_src
+
 # Local Variables:
 # auto-fill-function: nil
 # eval: (add-hook 'after-save-hook 'org-babel-tangle nil t)
