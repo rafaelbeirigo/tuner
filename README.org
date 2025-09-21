@@ -6,6 +6,8 @@ It was made using [[https://orgmode.org][Org Mode for Emacs]].
 
 This is the basic structure of the page linked above.
 
+~index.html ≡~
+
 #+begin_src html :tangle index.html :noweb tangle
 <!DOCTYPE html>
 <html lang="en">
