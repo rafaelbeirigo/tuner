@@ -3,3 +3,7 @@ You can see it in action [[https://rafaelbeirigo.github.io/tuner/][here]].
 
 The rest of this text describes the entire code in [[https://en.wikipedia.org/wiki/Literate_programming][Literate Programming]].
 It was made using [[https://orgmode.org][Org Mode for Emacs]].
+
+# Local Variables:
+# auto-fill-function: nil
+# End:
