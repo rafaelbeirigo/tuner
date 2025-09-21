@@ -6,4 +6,5 @@ It was made using [[https://orgmode.org][Org Mode for Emacs]].
 
 # Local Variables:
 # auto-fill-function: nil
+# eval: (add-hook 'after-save-hook 'org-babel-tangle nil t)
 # End:
