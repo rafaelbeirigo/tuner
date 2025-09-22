@@ -1,3 +1,5 @@
+#+PROPERTY: header-args :noweb no-export
+
 This is a Musical Instrument Tuner for web browsers.
 You can see it in action [[https://rafaelbeirigo.github.io/tuner/][here]].
 
@@ -8,7 +10,7 @@ This is the basic structure of the page linked above, coded in ~index.html~.
 
 ~index.html ≡~
 
-#+begin_src html :tangle index.html :noweb tangle
+#+begin_src html :tangle index.html
 <!DOCTYPE html>
 <html lang="en">
   <<head Block>>
@@ -18,10 +20,9 @@ This is the basic structure of the page linked above, coded in ~index.html~.
 
 In the ~<<head Block>>~ we'll be doing some configurations chores (page title, charset, style).
 
-~<<head Block>>≡~
+~<<head Block>> +≡~
 
-#+name: head Block
-#+begin_src html
+#+begin_src html :noweb-ref head Block
 <head>
   <meta charset="UTF-8">
   <title>Tuner</title>
@@ -29,6 +30,48 @@ In the ~<<head Block>>~ we'll be doing some configurations chores (page title, c
   <link rel="stylesheet" href="style.css">
 </head>
 #+end_src
+
+Speaking of /style/, let's set it up for ~<body>~, using /CSS rules/.
+These rulles will be stored in ~style.css~.
+
+~style.css ≡~
+
+#+begin_src css :tangle style.css
+<<CSS Rules>>
+#+end_src
+
+Let's create the basic structure for ~<body>~'s rules.
+We'll use a reference, this way we can add the rules gradually.
+
+~<<CSS Rules>> +≡~
+
+#+begin_src css :noweb-ref CSS Rules
+body {
+  <<CSS Rules for body>>
+}
+#+end_src
+
+As this is a tuner, lots of things will be competing for the user's attention.
+This way, it is better to use a somewhat /basic/ style.
+For the background, then, we'll have it /black/.
+
+~<<CSS Rules for body>> +≡~
+
+#+begin_src css :noweb-ref CSS Rules for body
+background: black;
+#+end_src
+
+And for the fonts' color, we'll have it /white/ (nothing more basic that monochrome, right?!)
+Speaking of fonts, since we want it clean, let's do away with those serifs.
+
+~<<CSS Rules for body>> +≡~
+
+#+begin_src css :noweb-ref CSS Rules for body
+color: white;
+font-family: sans-serif;
+#+end_src
+
+We want the whole page available for use.
 
 # Local Variables:
 # auto-fill-function: nil
