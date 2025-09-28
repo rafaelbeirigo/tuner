@@ -8,7 +8,7 @@ This is the basic structure of the page linked above, coded in ~index.html~.
 
 ~index.html ≡~
 
-#+begin_src html :tangle index.html :noweb tangle
+#+begin_src html :tangle index-lp.html :noweb tangle
 <!DOCTYPE html>
 <html lang="en">
   <<head Block>>
